@@ -3,7 +3,7 @@ package com.myname;
 public class UserDto {
 
     String name;
-    String surname;
+    String lastName;
 
     public String getName() {
         return name;
@@ -13,12 +13,12 @@ public class UserDto {
         this.name = name;
     }
 
-    public String getSurname() {
-        return surname;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setSurname(String surname) {
-        this.surname = surname;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
 }

@@ -9,7 +9,7 @@ public class User {
 
         UserDto user = new UserDto();
         user.setName(name);
-        user.setSurname(surname);
+        user.setLastName(surname);
 
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         return gson.toJson(user);
